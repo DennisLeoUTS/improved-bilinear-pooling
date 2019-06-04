@@ -1,7 +1,7 @@
 # improved-bilinear-pooling
-# Pytorch implementation of BCNN and iBCNN.
+Pytorch implementation of BCNN and iBCNN.
 
-# Introduction
+## Introduction
 This repo contains codes for fine tuning BCNN and iBCNN on CUB_200_2011 datasets.
 
 Ref. to:
