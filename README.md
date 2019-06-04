@@ -16,16 +16,25 @@ Datasets
 How to use
 git clone https://github.com/DennisLeoUTS/improved-bilinear-pooling.git
 cd improved-bilinear-pooling
+
 modify the data_path in utils/Config.py. The path should include data package CUB_200_2011.tgz
 
 To finetune the bilinear CNN in [1]:
+
 python trainer_bilinear_ft_last_layer.py
+
 after finished, run:
+
 python trainer_bilinear_ft_all.py
+
 and it can give 84.98% top-1 accuracy.
 
 To finetune the improved bilinear CNN in [2]:
+
 python trainer_improved_bilinear_ft_last_layer.py
+
 after finished, run:
+
 python trainer_improved_bilinear_ft_all.py
+
 and it can give 85.94% top-1 accuracy.
